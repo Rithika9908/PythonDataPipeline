@@ -1,0 +1,9 @@
+
+{
+    "input_file": "data/raw_data.csv",
+    "output_file": "data/output.csv",
+    "log_file": "logs/pipeline.log",
+    "remove_duplicates": true,
+    "missing_age": 0,
+    "missing_salary": 0
+}

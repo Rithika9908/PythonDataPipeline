@@ -1,0 +1,54 @@
+2026-10-11 11:28:26,969 - INFO - Pipeline started
+2026-10-11 11:28:26,970 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\rsrut\OneDrive\Desktop\PythonDataPipeline\src\pipeline.py", line 66, in main
+    df = read_data(config["input_file"])
+  File "C:\Users\rsrut\OneDrive\Desktop\PythonDataPipeline\src\pipeline.py", line 25, in read_data
+    raise FileNotFoundError(f"File not found: {path}")
+FileNotFoundError: File not found: C:\Users\rsrut\OneDrive\Desktop\PythonDataPipeline\data\raw_data.csv
+2026-10-11 13:37:33,548 - INFO - Pipeline started
+2026-10-11 13:37:33,549 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\rsrut\OneDrive\Desktop\PythonDataPipeline\src\pipeline.py", line 66, in main
+    df = read_data(config["input_file"])
+  File "C:\Users\rsrut\OneDrive\Desktop\PythonDataPipeline\src\pipeline.py", line 28, in read_data
+    raise ValueError("Input file is empty")
+ValueError: Input file is empty
+2026-10-11 13:38:01,326 - INFO - Pipeline started
+2026-10-11 13:38:01,326 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\rsrut\OneDrive\Desktop\PythonDataPipeline\src\pipeline.py", line 66, in main
+    df = read_data(config["input_file"])
+  File "C:\Users\rsrut\OneDrive\Desktop\PythonDataPipeline\src\pipeline.py", line 28, in read_data
+    raise ValueError("Input file is empty")
+ValueError: Input file is empty
+2026-10-11 13:38:10,527 - INFO - Pipeline started
+2026-10-11 13:38:10,527 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\rsrut\OneDrive\Desktop\PythonDataPipeline\src\pipeline.py", line 66, in main
+    df = read_data(config["input_file"])
+  File "C:\Users\rsrut\OneDrive\Desktop\PythonDataPipeline\src\pipeline.py", line 28, in read_data
+    raise ValueError("Input file is empty")
+ValueError: Input file is empty
+2026-10-11 13:38:18,160 - INFO - Pipeline started
+2026-10-11 13:38:18,161 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\rsrut\OneDrive\Desktop\PythonDataPipeline\src\pipeline.py", line 66, in main
+    df = read_data(config["input_file"])
+  File "C:\Users\rsrut\OneDrive\Desktop\PythonDataPipeline\src\pipeline.py", line 28, in read_data
+    raise ValueError("Input file is empty")
+ValueError: Input file is empty
+2026-10-11 13:38:33,672 - INFO - Pipeline started
+2026-10-11 13:38:33,673 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\rsrut\OneDrive\Desktop\PythonDataPipeline\src\pipeline.py", line 66, in main
+    df = read_data(config["input_file"])
+  File "C:\Users\rsrut\OneDrive\Desktop\PythonDataPipeline\src\pipeline.py", line 28, in read_data
+    raise ValueError("Input file is empty")
+ValueError: Input file is empty
+2026-10-11 13:39:20,947 - INFO - Pipeline started
+2026-10-11 13:39:20,965 - INFO - Loaded 5 rows
+2026-10-11 13:39:20,983 - INFO - Pipeline completed successfully
+2026-10-11 13:39:45,818 - INFO - Pipeline started
+2026-10-11 13:39:45,829 - INFO - Loaded 5 rows
+2026-10-11 13:39:45,843 - INFO - Pipeline completed successfully
